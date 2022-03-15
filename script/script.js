@@ -20,7 +20,7 @@ function getQuote() {
 
         } else {
 
-            quoteElem.innerHTML = 'Erreur'
+            quoteElem.innerHTML = 'Sometimes there are errors...'
 
         }
 
