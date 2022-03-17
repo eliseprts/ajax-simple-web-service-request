@@ -1,41 +1,35 @@
 // Font 1 : 'Montserrat', sans-serif;
 // Font 2 : 'PT Serif', serif;
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .quoteContainer {
   background-color: #ebeef3;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 50px;
   width: 30%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
   padding: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  img {
-    width: 100px;
-    transform: translateY(-180%);
-  }
   blockquote {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     font-weight: 200;
-    font-size: 26px;
+    font-size: 22px;
     text-align: center;
     line-height: 1.7em;
     .author {
       font-family: "PT Serif", serif;
-      font-size: 20px;
+      font-size: 16px;
       text-transform: none;
       line-height: 6em;
     }
   }
+}
+
+img {
+  width: 100px;
+  transform: translateY(-180%);
 }
