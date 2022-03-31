@@ -1,5 +1,7 @@
 # THE HILL | Javascript, season 2 | 01 Ajax
 
+_Repo created as part of the [BeCode web development training](https://becode.org/fr/apprendre/developpeur-web-junior/)_
+
 * Mode : solo work
 * Type of challenge : learning
 * Duration : 1 day
